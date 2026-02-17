@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="termGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e1e1e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#141414;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="200" fill="url(#bg)" rx="10" ry="10"/>
+
+  <!-- Green accent bar on left -->
+  <rect x="0" y="0" width="6" height="200" fill="#00ff7f" rx="3" ry="3"/>
+
+  <!-- Product name -->
+  <text x="36" y="72" font-family="'Courier New', Courier, monospace" font-size="42" font-weight="bold" fill="#ffffff">TaxJar</text>
+  <text x="36" y="104" font-family="'Courier New', Courier, monospace" font-size="18" fill="#00ff7f">Sales Tax CLI</text>
+
+  <!-- Subtitle -->
+  <text x="36" y="130" font-family="'Courier New', Courier, monospace" font-size="13" fill="#888888">Calculate taxes • Report transactions • Automate filing</text>
+
+  <!-- Terminal box with npm install command -->
+  <rect x="36" y="148" width="390" height="36" fill="url(#termGrad)" rx="6" ry="6" stroke="#333333" stroke-width="1"/>
+  <text x="50" y="170" font-family="'Courier New', Courier, monospace" font-size="14" fill="#00ff7f">$</text>
+  <text x="64" y="170" font-family="'Courier New', Courier, monospace" font-size="14" fill="#ffffff"> npm install -g @ktmcp-cli/taxjar</text>
+
+  <!-- Kill MCP badge -->
+  <rect x="640" y="148" width="140" height="36" fill="#00ff7f" rx="6" ry="6"/>
+  <text x="651" y="170" font-family="'Courier New', Courier, monospace" font-size="13" font-weight="bold" fill="#0a0a0a">$ kill -9 MCP</text>
+
+  <!-- Version badge -->
+  <rect x="640" y="55" width="140" height="28" fill="#1a1a1a" rx="14" ry="14" stroke="#00ff7f" stroke-width="1.5"/>
+  <text x="710" y="73" font-family="'Courier New', Courier, monospace" font-size="12" fill="#00ff7f" text-anchor="middle">v1.0.0 • MIT</text>
+
+  <!-- TaxJar logo area placeholder - tax icon -->
+  <text x="710" y="115" font-family="'Courier New', Courier, monospace" font-size="40" fill="#00ff7f" text-anchor="middle" opacity="0.3">%</text>
+</svg>
