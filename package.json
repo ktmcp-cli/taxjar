@@ -4,8 +4,17 @@
   "description": "Production-ready CLI for TaxJar API - sales tax calculation and reporting",
   "type": "module",
   "main": "src/index.js",
-  "bin": { "taxjar": "./bin/taxjar.js" },
-  "keywords": ["taxjar", "tax", "sales-tax", "ecommerce", "cli", "api"],
+  "bin": {
+    "taxjar": "bin/taxjar.js"
+  },
+  "keywords": [
+    "taxjar",
+    "tax",
+    "sales-tax",
+    "ecommerce",
+    "cli",
+    "api"
+  ],
   "author": "KTMCP",
   "license": "MIT",
   "dependencies": {
@@ -16,5 +25,7 @@
     "ora": "^8.0.1",
     "conf": "^12.0.0"
   },
-  "engines": { "node": ">=18.0.0" }
+  "engines": {
+    "node": ">=18.0.0"
+  }
 }
